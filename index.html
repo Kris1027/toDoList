@@ -10,10 +10,14 @@
     <body>
 
         <div class="container">
-            <h1>ToDoList - Princess Edition</h1>
+            <div id="toDoLogo">
+                <h1>ToDoList - Princess Edition</h1>
+            </div>
             <input id="inputField" type="text">
             <button id="addToDoButton">Add</button>
+            <button id="printToDoButton" onclick="window.print()">Print or Save</button>
             <div id="toDoContainer">
+                <ul id="toDoList"></ul>
             </div>
         </div>
         

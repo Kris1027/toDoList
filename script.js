@@ -5,7 +5,7 @@ const inputField = document.getElementById('inputField');         //
 addToDoButton.addEventListener('click', function()   // Dodaje do button metodę działania po kliknięciu i niemą funkcję
 {
     const text = inputField.value;   // Tworzę zmienną która pobiera wartość z input
-    const newParagraph = document.createElement('p');   // Tworzę zmienną która tworzy paragraf
+    const newParagraph = document.createElement('li');   // Tworzę zmienną która tworzy paragraf
     const paragraphText = document.createTextNode(text);   // Tworze zmienną która pozwala na wpisanie tekstu dzięki metodzie createTextNode
     newParagraph.appendChild(paragraphText);   // Dodaje do zmiennej nowego paragrafu zmienna z tekstem
     toDoContainer.appendChild(newParagraph);   // Dodaje do kontenera na paragrafy miejsce na nowe paragrafy

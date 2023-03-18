@@ -22,7 +22,7 @@ body {
 
 h1 {
     font-size: 36px;
-    color: rgb(80, 0, 177);
+    color: #5000b1;
     margin-bottom: 20px;
 }
 
@@ -31,8 +31,8 @@ h1 {
     height: 50px;
     border-radius: 10px;
     font-size: 24px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 174);
+    background-color: #ffffff;
+    color: #ff00ae;
     letter-spacing: 1px;
     border-color: #ffffff;
     margin-bottom: 10px;
@@ -43,13 +43,40 @@ h1 {
     font-size: 28px;
     padding: 5px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(191, 0, 255);
+    background-color: #ffffff;
+    color: #bf00ff;
+}
+
+#printToDoButton {
+    font-size: 28px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #bf00ff;
+}
+
+#toDoContainer {
+    list-style-type: star;
 }
 
 .p-style {
     font-size: 38px;
-    text-align: center;
+    text-align: justify;
     margin-top: 5px;
-    color: rgb(80, 0, 177);
+    color: #5000b1;
 }
+
+@counter-style star {
+    system: cyclic;
+    symbols: "\2601";
+    suffix: " ";
+}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #toDoLogo, #toDoLogo *, #toDoContainer, #toDoContainer * {
+      visibility: visible;
+    }
+  }
