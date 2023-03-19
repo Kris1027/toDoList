@@ -18,6 +18,12 @@ body {
     text-align: center;
     padding: 10px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#switch {
+    margin-right: auto;
 }
 
 h1 {
@@ -55,7 +61,7 @@ h1 {
     color: #bf00ff;
 }
 
-#clearToDoButton {
+#switchButton {
     font-size: 28px;
     padding: 5px;
     border-radius: 10px;
