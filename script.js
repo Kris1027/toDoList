@@ -1,6 +1,7 @@
 const addToDoButton = document.getElementById('addToDoButton');     //
 const toDoContainer = document.getElementById('toDoContainer');    // Podpinam elementy DOM - button, input i kontener na paragrafy
 const inputField = document.getElementById('inputField');         //
+const clearToDoButton = document.getElementById('clearToDoButton');   // Podpinam button do wyczyszczenia całej listy
 
 addToDoButton.addEventListener('click', function()   // Dodaje do button metodę działania po kliknięciu i niemą funkcję
 {
