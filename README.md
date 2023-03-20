@@ -6,4 +6,4 @@ https://kris1027.github.io/toDoList-PrincessEdition/
 # If you have completed a task from the list, you can click on the text and strike it through
 # Double click remove task from the list
 # You can print or save the list on your computer
-# Now you can switch betweem two types of style
+# Now you can switch between two types of style
