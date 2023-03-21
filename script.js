@@ -21,3 +21,7 @@ addToDoButton.addEventListener('click', function()   // Dodaje do button metodę
         toDoContainer.removeChild(newParagraph);   // Usuwa paragraf
     })
 })
+
+document.getElementById('clearButton').onclick = function() {   // Dodaje funkcję, która odświeża całą stronę czyli czyści wszystko
+    location.reload();
+}
