@@ -22,6 +22,10 @@ addToDoButton.addEventListener('click', function()   // Dodaje do button metodę
     })
 })
 
+document.getElementById('printToDoButton').onclick = function() {
+    window.print()
+}
+
 document.getElementById('clearButton').onclick = function() {   // Dodaje funkcję, która odświeża całą stronę czyli czyści wszystko
     location.reload();
 }
