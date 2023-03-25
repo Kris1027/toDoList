@@ -7,3 +7,4 @@ https://kris1027.github.io/toDoList-PrincessEdition/
 # Double click remove task from the list
 # You can print or save the list on your computer
 # Now you can switch between two types of style
+# clear button
